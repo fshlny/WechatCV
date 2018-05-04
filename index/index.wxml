@@ -1,0 +1,12 @@
+<view class='page-index'>
+  <image class='head' mode='aspectFill' src='https://ws1.sinaimg.cn/large/610dc034ly1fp9qm6nv50j20u00miacg.jpg'></image>
+  
+  <text class='text-name'>{{name}}</text>
+  <text class='text-descript'>{{descript}}</text>
+  <view class='bottom-info'>
+    <text class='bottom-text'>联系电话  |</text>
+    <text class='bottom-text bottom-text-center'> 工作经历   |</text>
+    <text class='bottom-text'> 电子邮箱 </text>
+  </view>
+</view>
+
