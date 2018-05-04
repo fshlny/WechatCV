@@ -1,0 +1,6 @@
+<!--main/mian.wxml-->
+<scroll-view>
+  <view class='page-top'>
+    页面开头
+  </view>
+</scroll-view>

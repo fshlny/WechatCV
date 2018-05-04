@@ -7,6 +7,10 @@
   justify-content: flex-start;
   background: #cc1290;
   align-content: flex-end;
+  background-image: url(http://www.500d.me/resources/500d/cvresume/images/mr0040/head.jpg);
+  background-repeat:no-repeat ;
+  background-size:100% 50%; 
+  background-attachment: fixed;
 }
 
 .head{
@@ -24,16 +28,16 @@
 }
 
 .text-descript{
+  padding: 20rpx 10rpx;
   color: white;
-  font: 18rpx;
+  font: 16rpx;
   text-align: start;
-
 }
 
 .bottom-info{
   position: absolute;
   width: 100%;
-  bottom: 30rpx;
+  bottom: 80rpx;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -46,6 +50,6 @@
   font-size: 20rpx;
 }
 .bottom-text-center{
-  padding: 0 14rpx;
+  padding: 0 18rpx;
 }
 

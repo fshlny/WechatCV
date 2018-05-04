@@ -1,0 +1,15 @@
+<view class='page-index'>
+  <image class='head' mode='aspectFill' src='https://ws1.sinaimg.cn/large/610dc034ly1fp9qm6nv50j20u00miacg.jpg'></image>
+  
+  <text class='text-name'>{{}}</text>
+  <text class='text-descript'>{{}}</text>
+  <text bindtap='toMainPage'>进入主页面</text>
+
+  
+  <view class='bottom-info'>
+    <text class='bottom-text'>  |</text>
+    <text class='bottom-text bottom-text-center'>    |</text>
+    <text class='bottom-text'>  </text>
+  </view>
+</view>
+
