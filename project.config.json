@@ -1,5 +1,5 @@
 {
-	"description": "我的简历",
+	"description": "项目配置文件。",
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
@@ -10,8 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
 	"appid": "touristappid",
-	"projectname": "MyCV",
-	"isGameTourist": false,
+	"projectname": "WeChatCV",
 	"condition": {
 		"search": {
 			"current": -1,

@@ -5,51 +5,77 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
-  background: #cc1290;
+  background: #37b754;
   align-content: flex-end;
   background-image: url(http://www.500d.me/resources/500d/cvresume/images/mr0040/head.jpg);
   background-repeat:no-repeat ;
   background-size:100% 50%; 
   background-attachment: fixed;
 }
-
-.head{
-  width: 200rpx;
-  height: 200rpx;
-  border: 1px solid #12cc00;
-  border-radius: 100rpx;
-  margin: 0 auto;
-}
-.text-name{
- color: white;
- font-size: 100rpx; 
-  text-align: center;
-  margin-top: 40rpx;
-}
-
-.text-descript{
-  padding: 20rpx 10rpx;
-  color: white;
-  font: 16rpx;
-  text-align: start;
-}
-
-.bottom-info{
-  position: absolute;
-  width: 100%;
-  bottom: 80rpx;
+.page-container{
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  background: #2d4e5c;
+  padding: 20rpx;
 }
 
-.bottom-text{
+.info-top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-top image{
+  width: 105rpx;
+  height: 148rpx;
+}
+
+.name{
   color: white;
-  width: auto;
-  padding: 0rpx;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+
+.job{
+  color: #fae001;
+  margin-top: 20rpx;
   font-size: 20rpx;
 }
-.bottom-text-center{
-  padding: 0 18rpx;
+
+.base-info{
+  
+}
+.item-info-title-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1rpx solid #d8dcde;
+  padding-bottom: 10rpx;
+}
+.margin-top15{
+  margin-top: 15rpx;
+}
+.item-info-title{
+  color: #d8dcde;
+  font-size: 30rpx;
+  margin-left: 20rpx;
 }
 
+.base-info-item{
+  display: flex;
+  padding: 10rpx 0rpx;
+  flex-direction: row;
+  align-items: center;
+}
+.base-info-item-title{
+  color: #d8dcde;
+  font-size: 30rpx;
+}
+.base-info-item-detail{
+  color: #919191;
+  font-size: 30rpx; 
+}

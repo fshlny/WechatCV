@@ -1,15 +1,62 @@
-<view class='page-index'>
-  <image class='head' mode='aspectFill' src='https://ws1.sinaimg.cn/large/610dc034ly1fp9qm6nv50j20u00miacg.jpg'></image>
-  
-  <text class='text-name'>{{}}</text>
-  <text class='text-descript'>{{}}</text>
-  <text bindtap='toMainPage'>进入主页面</text>
+<view class="page-container">
+  <view class='info-top'>
+    <image mode='aspectFit' src='https://img02.51jobcdn.com/im/2017/resumetemplate/xsl/head_f2.png'></image>
+    <text class='name'>姓名</text>
+    <text class='job'>岗位</text>
+  </view>
 
-  
-  <view class='bottom-info'>
-    <text class='bottom-text'>  |</text>
-    <text class='bottom-text bottom-text-center'>    |</text>
-    <text class='bottom-text'>  </text>
+  <view class='base-info'>
+    <view class='item-info-title-container'>
+      <image mode="aspectFit" style="width:30rpx;height:31rpx;" src='https://img02.51jobcdn.com/im/2017/resumetemplate/xsl/icon7_type1.png'></image>
+      <text class="item-info-title">个人信息</text>
+    </view>
+    <view class='base-info-item margin-top15'>
+      <text class='base-info-item-title'>工作经验：</text>
+      <text class='base-info-item-detail'>3年</text>
+    </view>
+    <view class='base-info-item'>
+      <text class='base-info-item-title'>性别：</text>
+      <text class='base-info-item-detail'>java</text>
+    </view>
+    <view class='base-info-item'>
+      <text class='base-info-item-title'>居住地：</text>
+      <text class='base-info-item-detail'>上海市普陀区</text>
+    </view>
+    <view class='base-info-item'>
+      <text class='base-info-item-title'>微信：</text>
+      <text class='base-info-item-detail'>fshlny</text>
+    </view>
+    <view class='base-info-item'>
+      <text class='base-info-item-title'>github：</text>
+      <text class='base-info-item-detail'>https://github.com/fshlny</text>
+    </view>
+  </view>
+
+  <view class='base-info margin-top15'>
+    <view class='item-info-title-container'>
+      <image mode="aspectFit" style="width:30rpx;height:31rpx;" src='https://img03.51jobcdn.com/im/2017/resumetemplate/xsl/icon8_type1.png'></image>
+      <text class="item-info-title">求职意向</text>
+    </view>
+
+    <view class='base-info-item margin-top15'>
+      <text class='base-info-item-title'>意向岗位：</text>
+      <text class='base-info-item-detail' style='color:#fae001'>3年</text>
+    </view>
+    <view class='base-info-item'>
+      <text class='base-info-item-title'>意向城市：</text>
+      <text class='base-info-item-detail'>3年</text>
+    </view>
+    <view class='base-info-item'>
+      <text class='base-info-item-title'>职业类型：</text>
+      <text class='base-info-item-detail'>3年</text>
+    </view>
+    <view class='base-info-item'>
+      <text class='base-info-item-title'>入职时间：</text>
+      <text class='base-info-item-detail'>3年</text>
+    </view>
+    <view class='base-info-item'>
+      <text class='base-info-item-title'>在职状态：</text>
+      <text class='base-info-item-detail' style='color:#fae001'>3年</text>
+    </view>
   </view>
 </view>
-

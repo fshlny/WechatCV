@@ -1,6 +1,6 @@
 <!--main/mian.wxml-->
-<scroll-view>
-  <view class='page-top'>
-    页面开头
-  </view>
-</scroll-view>
+<view class='container'>
+  <div class='flex-item'>1</div>
+  <div class='flex-item'>2<br/>2<br/>2</div>
+  <div class='flex-item'>3<br/>3<br/>3<br/>3</div>
+</view>

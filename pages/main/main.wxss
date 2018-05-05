@@ -1,1 +1,17 @@
-/* main/mian.wxss */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.flex-item{
+  padding: 20rpx;
+  background-color: #b1ff84;
+}
+.flex-item:first-child{
+  background-color: #f5de25;
+}
+.flex-item:last-child{
+  background-color: #90d9f7;
+}
