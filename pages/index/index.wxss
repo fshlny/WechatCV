@@ -1,25 +1,9 @@
-.page-index{
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  background: #37b754;
-  align-content: flex-end;
-  background-image: url(http://www.500d.me/resources/500d/cvresume/images/mr0040/head.jpg);
-  background-repeat:no-repeat ;
-  background-size:100% 50%; 
-  background-attachment: fixed;
-}
 .page-container{
   display: flex;
-  position: fixed;
-  height: 100%;
-  width: 100%;
+  height: fit-content;
   flex-direction: column;
-  background: #2d4e5c;
-  padding: 20rpx;
+  justify-content: flex-start;
+  padding: 0rpx 20rpx;
 }
 
 .info-top{
@@ -78,4 +62,32 @@
 .base-info-item-detail{
   color: #919191;
   font-size: 30rpx; 
+}
+
+.card-view{
+  display: flex;
+  padding: 20rpx;
+  flex-flow: column nowrap;
+  border: 3rpx solid #d8dcde;
+  border-radius: 10rpx;
+  justify-content: flex-start;
+  box-shadow: -2rpx 10rpx 8rpx #B0B0B0;
+  background: white;
+}
+.item-info-row{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.item-info-container{
+  flex: 1;
+  font-size: 30rpx;
+}
+
+.margin-top{
+  margin-top: 10rpx;
+}
+
+.cell-30p{
+  flex: 0 0 33.33%;
 }

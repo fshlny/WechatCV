@@ -4,59 +4,81 @@
     <text class='name'>姓名</text>
     <text class='job'>岗位</text>
   </view>
-
-  <view class='base-info'>
-    <view class='item-info-title-container'>
-      <image mode="aspectFit" style="width:30rpx;height:31rpx;" src='https://img02.51jobcdn.com/im/2017/resumetemplate/xsl/icon7_type1.png'></image>
+  <!-- 个人信息-->
+  <view class='card-view' style='margin-top:40rpx;'>
+  <view class='item-title'>
+      <image mode="aspectFit" style="width:30rpx;height:31rpx;" src='https://img03.51jobcdn.com/im/2017/resumetemplate/xsl/icon8_type1.png'></image>
       <text class="item-info-title">个人信息</text>
     </view>
-    <view class='base-info-item margin-top15'>
-      <text class='base-info-item-title'>工作经验：</text>
-      <text class='base-info-item-detail'>3年</text>
-    </view>
-    <view class='base-info-item'>
-      <text class='base-info-item-title'>性别：</text>
-      <text class='base-info-item-detail'>java</text>
-    </view>
-    <view class='base-info-item'>
-      <text class='base-info-item-title'>居住地：</text>
-      <text class='base-info-item-detail'>上海市普陀区</text>
-    </view>
-    <view class='base-info-item'>
-      <text class='base-info-item-title'>微信：</text>
-      <text class='base-info-item-detail'>fshlny</text>
-    </view>
-    <view class='base-info-item'>
-      <text class='base-info-item-title'>github：</text>
-      <text class='base-info-item-detail'>https://github.com/fshlny</text>
+    <view>
+      <view >每一项信息</view>
+      <view >每一项信息</view>
+      <view >每一项信息</view>
+      <view >每一项信息</view>
     </view>
   </view>
 
-  <view class='base-info margin-top15'>
-    <view class='item-info-title-container'>
+  <view class='card-view' style='margin-top:40rpx;'>
+    <view class='item-title'>
       <image mode="aspectFit" style="width:30rpx;height:31rpx;" src='https://img03.51jobcdn.com/im/2017/resumetemplate/xsl/icon8_type1.png'></image>
       <text class="item-info-title">求职意向</text>
     </view>
+    <view class='item-info-row margin-top'>
+      <view class='item-info-container'>
+        <text>意向岗位：</text>
+        <text>xxxxx</text>
+      </view>
+      <view class='item-info-container'>
+        <text>职业类型：</text>
+        <text>xxxxx</text>
+      </view>
+    </view>
 
-    <view class='base-info-item margin-top15'>
-      <text class='base-info-item-title'>意向岗位：</text>
-      <text class='base-info-item-detail' style='color:#fae001'>3年</text>
+    <view class='item-info-row margin-top'>
+      <view class='item-info-container'>
+        <text>意向城市：</text>
+        <text>xxxxx</text>
+      </view>
+      <view class='item-info-container'>
+        <text>入职时间：</text>
+        <text>10</text>
+      </view>
     </view>
-    <view class='base-info-item'>
-      <text class='base-info-item-title'>意向城市：</text>
-      <text class='base-info-item-detail'>3年</text>
+  </view>
+
+  <view class='card-view' style='margin-top:40rpx;'>
+    <view class='item-title'>
+      <image mode="aspectFit" style="width:30rpx;height:31rpx;" src='https://img03.51jobcdn.com/im/2017/resumetemplate/xsl/icon8_type1.png'></image>
+      <text class="item-info-title">工作经验</text>
     </view>
-    <view class='base-info-item'>
-      <text class='base-info-item-title'>职业类型：</text>
-      <text class='base-info-item-detail'>3年</text>
+    <view class='item-info-row'>
+      <view class='cell-30p'>
+        2012.7至2013.5
+      </view>
+      <view class='cell-30p' style='overflow: hidden;white-space: nowrap;text-overflow: ellipsis;'>
+        上海融航信息技术股份有限公司
+      </view>
+      <view class='cell-30p'>
+        研发岗位
+      </view>
+      <view class='cell-30p' style='flex-grow:1;'>
+        这里填写工作内容
+      </view>
     </view>
-    <view class='base-info-item'>
-      <text class='base-info-item-title'>入职时间：</text>
-      <text class='base-info-item-detail'>3年</text>
+  </view>
+  <!-- 项目经验 -->
+  <view class='card-view' style='margin-top:40rpx;'>
+    <view class='item-title'>
+      <image mode="aspectFit" style="width:30rpx;height:31rpx;" src='https://img03.51jobcdn.com/im/2017/resumetemplate/xsl/icon8_type1.png'></image>
+      <text class="item-info-title">项目经验</text>
     </view>
-    <view class='base-info-item'>
-      <text class='base-info-item-title'>在职状态：</text>
-      <text class='base-info-item-detail' style='color:#fae001'>3年</text>
+
+    <view class='item-info-row'>
+      <view class='flex: 0 0 40%'>
+        2012.7至2013.5
+      </view>
+      <view style='flex: 0 0 50%;'>项目名称</view>
+      <view class='flex-grow:1'>项目内容</view>
     </view>
   </view>
 </view>
