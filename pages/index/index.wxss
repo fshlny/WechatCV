@@ -30,8 +30,13 @@
   font-size: 20rpx;
 }
 
-.base-info{
-  
+.item-title{
+  display: flex;
+  align-items:center;
+}
+.user-info-item{
+  font-size: .88rem;
+  padding: 5rpx 0;
 }
 .item-info-title-container{
   display: flex;

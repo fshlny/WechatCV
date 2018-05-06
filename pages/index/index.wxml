@@ -6,15 +6,15 @@
   </view>
   <!-- 个人信息-->
   <view class='card-view' style='margin-top:40rpx;'>
-  <view class='item-title'>
-      <image mode="aspectFit" style="width:30rpx;height:31rpx;" src='https://img03.51jobcdn.com/im/2017/resumetemplate/xsl/icon8_type1.png'></image>
+    <view class='item-title'>
+      <image mode="scaleToFill" style="width:50rpx;height:51rpx;" src='../../images/userinfo.png'></image>
       <text class="item-info-title">个人信息</text>
     </view>
-    <view>
-      <view >每一项信息</view>
-      <view >每一项信息</view>
-      <view >每一项信息</view>
-      <view >每一项信息</view>
+    <view class='margin-top' style='padding-left:20rpx;'>
+      <view class='user-info-item'>每一项信息</view>
+      <view class='user-info-item'>每一项信息</view>
+      <view class='user-info-item'>每一项信息</view>
+      <view class='user-info-item'>每一项信息</view>
     </view>
   </view>
 
